@@ -94,7 +94,7 @@ def load_proxy():
     proxies = []
 
     filename = input(bcolors.OKBLUE +
-                     'Enter your proxy file name: ' + bcolors.ENDC)
+                     'peroxy: ' + bcolors.ENDC)
 
     if not os.path.isfile(filename) and filename[-4:] != '.txt':
         filename = f'{filename}.txt'
