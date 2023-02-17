@@ -93,7 +93,7 @@ def clean_exe_temp(folder):
 def load_proxy():
     proxies = []
 
-    filename = input(bcolors.OKBLUE +
+    peroxy = input(bcolors.OKBLUE +
                      'peroxy: ' + bcolors.ENDC)
 
     if not os.path.isfile(filename) and filename[-4:] != '.txt':
